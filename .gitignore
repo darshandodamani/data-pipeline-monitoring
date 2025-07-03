@@ -1,0 +1,14 @@
+# Python venv
+venv/
+
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Environment files
+.env
+
+# OS and editor-specific
+.DS_Store
+*.swp
