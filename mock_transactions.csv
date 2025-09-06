@@ -1,0 +1,6 @@
+transaction_id,date,amount,currency,category,status
+1,2024-01-01,250,EUR,Utilities,Completed
+2,2024-01-02,1200,EUR,Salary,Completed
+3,2024-01-03,75,EUR,Groceries,Failed
+4,2024-01-04,300,EUR,Rent,Completed
+5,2024-01-05,95,EUR,Transport,Failed

@@ -1,14 +1,64 @@
-# Python venv
-venv/
-
-# Byte-compiled / cache files
+# Python
 __pycache__/
 *.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
 *.egg-info/
+.installed.cfg
+*.egg
 
-# Environment files
-.env
+# Virtual Environment
+venv/
+env/
+ENV/
 
-# OS and editor-specific
-.DS_Store
+# Airflow
+logs/
+airflow.cfg
+airflow.db
+webserver_config.py
+airflow-webserver.pid
+airflow-scheduler.pid
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Docker
+.docker/
+
+# IDE
+.vscode/
+.idea/
 *.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# Node modules (if any)
+node_modules/
+
+# Temporary files
+*.tmp
+*.temp
